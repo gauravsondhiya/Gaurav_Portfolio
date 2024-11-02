@@ -1,18 +1,18 @@
 2;
 // eslint-disable-next-line no-unused-vars
-import backgroud from "./images/newbg.mp4";
+import backgroud from "./images/bg.mp4";
 import Header from "./Header/Header";
-import Main from "./Main/Main";
+import Main from "./Home/Home";
 import Footer from "./Footer/Footer";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Project from "./Project/Project";
 import About from "./About/About"
 function App() {
   return (
-    <div className="w-full h-full text-white bg-black">
+    <div className="w-full h-full text-white">
       {/* Background Video */}
-      {/* <video
+      <video
         autoPlay
         muted
         loop
@@ -28,8 +28,9 @@ function App() {
       >
         <source src={backgroud} type="video/mp4" />
         Your browser does not support the video tag.
-      </video> */}
+      </video>
       <Header />
+        <br/>
       <Routes>
         {/* <Route> </Route> */}
           <Route path="💀HOME" element={<Main />} />
