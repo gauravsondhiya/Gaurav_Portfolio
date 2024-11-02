@@ -14,12 +14,12 @@ const Header = () => {
             ☠️ G.S
           </Link>
         </div>
-        <div className=" w-[60%] space-x-9 text-center p-3">
+        <div className=" w-[60%] space-x-9 text-center p-3 hover:text-white">
           <Link to="HOME">💀HOME</Link>
-          <Link to="/💀PROJECTS">💀PROJECTS</Link>
-          <Link to="/💀ABOUT">💀ABOUT</Link>
-          <Link to="/💀RESUME">💀RESUME</Link>
-          <Link to="/💀CONTACT">☠️CONTACT</Link>
+          <Link to="/PROJECTS">💀PROJECTS</Link>
+          <Link to="/ABOUT">💀ABOUT</Link>
+          <Link to="/RESUME">💀RESUME</Link>
+          <Link to="/CONTACT">☠️CONTACT</Link>
         </div>
       </nav>
     </div>

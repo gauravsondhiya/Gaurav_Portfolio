@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import logo from "../images/logo1.png";
-import logo2 from "../images/ddd.png";
+import logo2 from "../images/logo2.png";
 
 import Typewriter from "typewriter-effect";
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
       </div>
       {/* about section  */}
 
-      <div className=" border-white  mx-14 m h-[450px] flex justify-between">
+      <div className=" border-white  mx-28 m h-[450px] flex justify-between">
         <div className="w-[70%]  border-white ">
           <div className="text-center font-semibold">
           <p className="text-6xl text-right inline">
