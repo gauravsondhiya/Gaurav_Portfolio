@@ -5,8 +5,8 @@ import Skills from "./Skills";
 const About = () => {
   return (
     <div>
-      <div className="border border-white mt-28 mx-28 m h-[450px] flex justify-between">
-        <div className="w-[70%] border border-white ">
+      <div className=" border-white mt-28 mx-28  h-[400px]  grid sm:grid-cols-12 justify-between">
+        <div className="col-span-9  border-white ">
           <div className="text-center font-semibold">
           <p className="text-6xl text-right inline">
             Let Me <p className="inline text-purple-500 ">Introduce </p>
@@ -29,9 +29,9 @@ const About = () => {
           </p>
           
         </div>
-        <div className=" border border-white w-[30%] place-content-center m-auto">
+        <div className="  border-white col-span-3 place-content-center  ">
           <img
-            className="h-[350px]  rounded-full border border-white  m-auto"
+            className="h-[300px]  rounded-full  hover:border border-purple-600 m-auto"
             src={about}
             alt="logo"
           />
