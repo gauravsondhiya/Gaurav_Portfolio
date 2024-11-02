@@ -30,15 +30,13 @@ function App() {
         Your browser does not support the video tag.
       </video>
       <Header />
-        <br/>
+    
+        
       <Routes>
         {/* <Route> </Route> */}
-          <Route path="💀HOME" element={<Main />} />
-          <Route path="💀PROJECTS" element={<Project/>} />
-          <Route path="💀ABOUT" element={<About/>} />
-          {/* <Route path="💀RESUME" element={<💀RESUME/>} />
-          <Route path="💀CONTACT" element={<💀CONTACT/>} /> */}
-       
+          <Route path="HOME" element={<Main />} />
+          <Route path="/PROJECTS" element={<Project/>} />
+          <Route path="/ABOUT" element={<About/>} />
       </Routes>
 
       <Footer />
